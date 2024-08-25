@@ -3,39 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <h2>Scores Table</h2>
+  <title>PageSpeed Insights Dashboard</title>
+  <h1>PageSpeed Insights Dashboard</h1>
+
   <table id="scoresTable">
     <thead>
-      <tr>
-        <th>URL</th>
-        <th>Performance</th>
-        <th>Accessibility</th>
-        <th>Best Practices</th>
-        <th>SEO</th>
-      </tr>
+        <tr>
+            <th>URL</th>
+            <th>Performance</th>
+            <th>Accessibility</th>
+            <th>Best Practices</th>
+            <th>SEO</th>
+            <th>Link</th>
+        </tr>
     </thead>
-    <tbody>
-    </tbody>
-  </table>
-  <title>PageSpeed Insights Dashboard</title>
+    <tbody></tbody>
+</table>
+<br>
+<br>
+
+  <canvas id="desktopPerformanceChart"></canvas>
+  <canvas id="desktopAccessibilityChart"></canvas>
+  <canvas id="desktopBestPracticesChart"></canvas>
+  <canvas id="desktopSeoChart"></canvas>
+  
+  <canvas id="mobilePerformanceChart"></canvas>
+  <canvas id="mobileAccessibilityChart"></canvas>
+  <canvas id="mobileBestPracticesChart"></canvas>
+  <canvas id="mobileSeoChart"></canvas>
+<table id="scoresTable">
+    <thead>
+        <tr>
+            <th>URL</th>
+            <th>Performance</th>
+            <th>Accessibility</th>
+            <th>Best Practices</th>
+            <th>SEO</th>
+            <th>Link</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+  
+  
   <link rel="stylesheet" href="styles.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-  <h1>PageSpeed Insights Dashboard</h1>
+  
 
-  <div class="chart-container">
-    <canvas id="performanceChart"></canvas>
-  </div>
-  <div class="chart-container">
-    <canvas id="accessibilityChart"></canvas>
-  </div>
-  <div class="chart-container">
-    <canvas id="bestPracticesChart"></canvas>
-  </div>
-  <div class="chart-container">
-    <canvas id="seoChart"></canvas>
-  </div>
 
   
 
